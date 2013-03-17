@@ -16,10 +16,6 @@
 
 	/********** Set some global variables **********/
 	// Set our defaults
-	$defaults = array(
-		'name' => 'WP Admin Settings',
-		'default-page' => 'display_options',
-	);
 
 	// Set the $active_tab variable. Feed it the default
 	$active_tab = isset($_GET['tab']) ? $_GET['tab'] : $defaults['default-page'];
